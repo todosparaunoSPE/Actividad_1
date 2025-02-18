@@ -26,6 +26,16 @@ st.sidebar.write("**Estudiante:** Javier Horacio Pérez Ricárdez")
 st.sidebar.write("© 2025 Javier Horacio Pérez Ricárdez. Todos los derechos reservados.")
 
 
+# Botón para descargar el archivo PDF
+with open("modelo_NB_Ingenuo_EMV.pdf", "rb") as file:
+    btn = st.sidebar.download_button(
+        label="📥 Descargar Modelo NB Ingenuo",
+        data=file,
+        file_name="modelo_NB_Ingenuo_EMV.pdf",
+        mime="application/pdf"
+    )
+
+
 # Mostrar los datos
 st.header("Detalles del Estudiante")
 st.write(f"**Estudiante:** {estudiante}")
