@@ -8,7 +8,7 @@ Created on Tue Feb 18 14:55:33 2025
 import streamlit as st
 
 # Título de la aplicación
-st.title("Información del Estudiante y Actividad")
+st.title("Información")
 
 # Datos
 estudiante = "Javier Horacio Pérez Ricárdez"
