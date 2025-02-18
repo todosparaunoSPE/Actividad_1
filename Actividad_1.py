@@ -14,7 +14,7 @@ st.title("Información")
 estudiante = "Javier Horacio Pérez Ricárdez"
 asignatura = "Aprendizaje M. Aplicado"
 profesor = "Omar Velázquez López"
-actividad = "Aplicación del Clasificador Bayesiano Ingenuo usando EMV"
+actividad = "Aplicación del Clasificador Bayesiano Ingenuo Usando EMV"
 fecha = "Febrero del 2025"
 bibliografia = """
 Velázquez, O. (2025). *Aprendizaje automático aplicado en la clasificación de datos*. Editorial XYZ.
