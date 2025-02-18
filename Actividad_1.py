@@ -20,6 +20,12 @@ bibliografia = """
 Velázquez, O. (2025). *Aprendizaje automático aplicado en la clasificación de datos*. Editorial XYZ.
 """
 
+# Configurar la barra lateral
+st.sidebar.title("Información")
+st.sidebar.write("**Estudiante:** Javier Horacio Pérez Ricárdez")
+st.sidebar.write("© 2025 Javier Horacio Pérez Ricárdez. Todos los derechos reservados.")
+
+
 # Mostrar los datos
 st.header("Detalles del Estudiante")
 st.write(f"**Estudiante:** {estudiante}")
