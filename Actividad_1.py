@@ -14,7 +14,7 @@ st.title("Información del Estudiante y Actividad")
 estudiante = "Javier Horacio Pérez Ricárdez"
 asignatura = "Aprendizaje M. Aplicado"
 profesor = "Omar Velázquez López"
-actividad = "Aplicación del Clasificador Bayesiano Ingenuo"
+actividad = "Aplicación del Clasificador Bayesiano Ingenuo usando EMV"
 fecha = "Febrero del 2025"
 bibliografia = """
 Velázquez, O. (2025). *Aprendizaje automático aplicado en la clasificación de datos*. Editorial XYZ.
@@ -27,4 +27,4 @@ st.write(f"**Asignatura:** {asignatura}")
 st.write(f"**Profesor:** {profesor}")
 st.write(f"**Actividad:** {actividad}")
 st.write(f"**Fecha:** {fecha}")
-st.write(f"**Bibliografía (APA):** {bibliografia}")
+#st.write(f"**Bibliografía (APA):** {bibliografia}")
