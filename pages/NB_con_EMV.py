@@ -75,7 +75,7 @@ nb_emv = NaiveBayesEMV()
 nb_emv.fit(X, y)
 
 # Streamlit UI
-st.title("Clasificación de Pacientes con Naive Bayes Ingenuo usando EMV")
+st.title("Clasificación de Pacientes con Naive Bayes Ingenuo Usando EMV")
 st.write("Este modelo clasifica a los pacientes como 'Sano' o 'Enfermo' basado en temperatura, presión arterial y comorbilidad.")
 
 st.subheader("Datos de Entrenamiento")
